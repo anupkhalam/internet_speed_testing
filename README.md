@@ -24,11 +24,13 @@ sudo apt-get install nohup
 nohup python3 track_speed.py --speed <s> --interval <i> --records <r> &
 ~~~
 
-  **<s>**  : Expected speed (say 50).  
-  **<i>**  : Interval in which speed needs to be tracked in minutes (say 60).  
-  **<r>**  : Number of records to be reported (say 24).  
+  **s**  : Expected speed (say 50).  
+  **i**  : Interval in which speed needs to be tracked in minutes (say 60).  
+  **r**  : Number of records to be reported (say 24).  
 Then, run the following
 
 ~~~
 nohup python3 track_speed.py --speed 50 --interval 60 --records 24 &
 ~~~
+## Result
+Report can be fetched from data/speed_report.xlsx
