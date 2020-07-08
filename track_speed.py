@@ -13,7 +13,7 @@ import pandas as pd
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 
-def get_internet_speed(args_):
+def get_internet_speed(args):
     """Get internet speed."""
     dt = datetime.datetime.now()
     details = {}
